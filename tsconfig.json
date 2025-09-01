@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    // Target and Module Settings
+    "target": "ES6",
+    "module": "es2015",
+    "moduleResolution": "bundler",
+    "jsx": "react",
+
+    // Output Settings
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "./dist",
+
+    // Interoperability and Compatibility
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    // Type Checking
+    "strict": true,
+    "skipLibCheck": true,
+
+    // Miscellaneous
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true
+  },
+  // Files to Include
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  // Files to Exclude
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
